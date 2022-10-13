@@ -1,0 +1,14 @@
+/* DEBUG */
+.ms-deb-bg-color1{
+    background-color: var(--ms-first-color);
+}
+.ms-deb-bg-color2{
+    background-color: var(--ms-second-color);
+
+}
+.ms-deb-bg-color3{
+    background-color: var(--ms-third-color);
+}
+.ms-deb-bg-color4{
+    background-color: var(--ms-fourth-color);
+}
