@@ -19,9 +19,9 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid ms-deb-bg-color2">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-1 ms-deb-bg-color3">
+                <div class="col-1">
                     <div class="row">
                         <div class="col-12 d-none d-lg-block">
                             <img class="ms-logo-big" src="img\logo.svg" alt="logo">
@@ -32,16 +32,16 @@
                     </div>
                 </div>
                 <div class="col-10"></div>
-                <div class="col-1 ms-deb-bg-color3">
+                <div class="col-1">
                     <div class="row">
-                        <div class="col-9 d-none d-lg-block ms-deb-bg-color1">
+                        <div class="col-9 d-none d-lg-block">
                             <div class="row">
                                 <div class="col-4 text-center"><a href=""><i class="fa-solid fa-bars"></i></a></div>
                                 <div class="col-4 text-center"><a href=""><i class="fa-sharp fa-solid fa-circle-question"></i></a></div>
                                 <div class="col-4 text-center"><a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a></div>
                             </div>                            
                         </div>
-                        <div class="col-12 col-lg-3 ms-deb-bg-color4 text-center">
+                        <div class="col-12 col-lg-3 text-center">
                             <i class="fa-solid fa-bell"></i>
                         </div>
                     </div>
@@ -49,5 +49,216 @@
             </div>
         </div>
     </header>
+    <div class="ms-page-container">
+        <aside>
+            <div class="ms-container-aside d-flex flex-column">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                        </div>
+                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <i class="fa-solid fa-signal"></i>
+                        </div>
+                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                    </div>
+                </div>
+                <div class="container ms-aside-bottom">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="ms-boolean py-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <h1 class="mb-3 me-1 d-inline-block">Boolean</h1>
+                            <span class="badge rounded-pill ms-badge">Piano blaze</span>    
+                            <div>
+                                <!-- badge md -->
+                                <span class="badge rounded-pill ms-badge">3 app</span>
+                                <span><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></span>
+                                <span class="badge rounded-pill ms-badge d-lg-none"><i class="fa-solid fa-plus"></i></span>
+                                <!-- /badge md -->
+                                <!-- badge lg -->
+                                <span class="badge rounded-pill ms-badge d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="badge rounded-pill ms-badge d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="badge rounded-pill ms-badge d-none d-lg-inline-block">Boolean blog app</span>
+                                <!-- /badge lg -->
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                            <div>Studenti online negli ultimi 30 minuti</div>
+                            <div class="fs-4">125</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="card mt-4">
+                            <div class="card-header d-flex justify-content-between">
+                                <h5>Prossimie classi</h5>
+                                <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                    <i class="fa-regular fa-plus ms-btn-offcanvas-plus py-2 px-2"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">                              
+                                <table class="table ms-font-small text-center">
+                                    <thead>
+                                      <tr>
+                                        <th class="ms-th-large text-start" scope="col">Nome</th>
+                                        <th class="ms-th-small d-none d-md-table-cell" scope="col">Data inizio</th>
+                                        <th class="ms-th-small d-none d-sm-table-cell" scope="col">ROI</th>
+                                        <th class="ms-th-small" scope="col">Stato</th>
+                                        <th class="ms-th-small" scope="col">Azioni</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 75
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">15-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 76
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">16-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 77
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">17-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-warning">Process</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 78
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">18-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 79
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">19-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-danger">Failed</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 80
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">20-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 81
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">21-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-danger">Failed</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="ms-th-large text-start">
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
+                                            Classe 82
+                                        </th>
+                                        <td class="ms-th-small d-none d-md-table-cell">22-Febbraio-2021</td>
+                                        <td class="ms-th-small d-sm-table-cell">20%</td>
+                                        <td class="ms-th-small">
+                                            <span class="badge text-bg-success">Done</span>
+                                        </td>
+                                        <td class="ms-th-small">
+                                            <button class="ms-table-button"><i class="fa-solid fa-pen"></i></button>
+                                            <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>

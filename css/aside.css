@@ -1,0 +1,13 @@
+aside{
+    width: auto;
+    padding: 10px;
+    background-color: #051e34;
+    flex-shrink: 0;
+    color: white;
+}
+.ms-container-aside{
+    height: 100%;
+}
+.ms-aside-bottom{
+    margin-top: auto;
+}

@@ -1,0 +1,10 @@
+main{
+    background-color: blue;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.ms-boolean{
+    background-color: #1c72e8;
+    padding-left: 1.25rem;
+    color: white;
+}
