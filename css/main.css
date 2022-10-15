@@ -3,8 +3,38 @@ main{
     flex-grow: 1;
     overflow-y: auto;
 }
+/* booleans */
 .ms-boolean{
     background-color: #1c72e8;
     padding-left: 1.25rem;
     color: white;
+}
+/* tables */
+main table{
+    color: gray;
+}
+.ms-code-icon{
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    margin-right: 5px;
+}
+.ms-table-button{
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+    margin-right: 5px;
+}
+.ms-table-button i{
+    color: gray;
+}
+/* faq */
+.ms-faq-button{
+    width: 100%;
+    display: flex;
+    text-align: start;
+    border: none;
+    justify-content: space-between;
+    background-color: white;
 }
