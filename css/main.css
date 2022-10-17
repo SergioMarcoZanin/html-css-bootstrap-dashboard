@@ -8,6 +8,9 @@ main{
     padding-left: 1.25rem;
     color: white;
 }
+.ms-badge{
+    background-color: rgba(0, 0, 0, 0.2);
+}
 /* tables */
 main table{
     color: gray;
@@ -24,6 +27,10 @@ main table{
     border-radius: 3px;
     background-color: white;
     margin-right: 5px;
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
 }
 .ms-table-button i{
     color: gray;

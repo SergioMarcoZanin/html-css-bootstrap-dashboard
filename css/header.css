@@ -1,7 +1,15 @@
 
 /* HEADER */
+header{
+    height: auto;
+    padding: .625rem;
+}
 header i{
     font-size: 14px;
+    color: grey;
+}
+.fa-bell{
+    color: orange;
 }
 .ms-logo-big{
     max-width: 150px;
@@ -9,3 +17,9 @@ header i{
 .ms-logo-small{
     max-width: 50px;
 }
+
+#search-bar{
+    background-color: lightgray;
+    border: none;
+}
+

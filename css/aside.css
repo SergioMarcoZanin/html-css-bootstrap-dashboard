@@ -11,3 +11,6 @@ aside{
 .ms-aside-bottom{
     margin-top: auto;
 }
+aside .row{
+    padding: .625rem;
+}

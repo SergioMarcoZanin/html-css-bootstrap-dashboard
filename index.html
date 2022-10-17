@@ -18,9 +18,11 @@
     <title>Boostrap-Dashboard</title>
 </head>
 <body>
+    <!-- header -->
     <header>
         <div class="container-fluid">
             <div class="row">
+                <!-- col-logo -->
                 <div class="col-1">
                     <div class="row">
                         <div class="col-12 d-none d-lg-block">
@@ -31,8 +33,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-10"></div>
-                <div class="col-1">
+                <!-- /col-logo -->
+                <!-- col-search -->
+                <div class="col p-0">                 
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input class="form-control me-2" type="search" placeholder="Prova a cercare lezioni di Laravel" aria-label="Search" id="search-bar">
+                    </div>
+                </div>
+                <!-- /col-search -->
+                <!-- icons -->
+                <div class="col-1 py-2">
                     <div class="row">
                         <div class="col-9 d-none d-lg-block">
                             <div class="row">
@@ -46,10 +57,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- /icons -->
             </div>
         </div>
     </header>
+    <!-- /header -->
     <div class="ms-page-container">
+        <!-- aside -->
         <aside>
             <div class="ms-container-aside d-flex flex-column">
                 <div class="container">
@@ -57,32 +71,34 @@
                         <div class="col-12 col-lg-4">
                             <i class="fa-solid fa-house"></i>
                         </div>
-                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                        <div class="col-lg-8 d-none d-lg-block">Home</div>
                     </div>
-                    <div class="row">
+                    <div class="row ciao">
                         <div class="col-12 col-lg-4">
                             <i class="fa-sharp fa-solid fa-chart-simple"></i>
                         </div>
-                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                        <div class="col-lg-8 d-none d-lg-block">Stats</div>
                     </div>
-                    <div class="row">
+                    <div class="row ciao">
                         <div class="col-12 col-lg-4">
                             <i class="fa-solid fa-signal"></i>
                         </div>
-                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                        <div class="col-lg-8 d-none d-lg-block">Signals</div>
                     </div>
                 </div>
                 <div class="container ms-aside-bottom">
-                    <div class="row">
+                    <div class="row ciao">
                         <div class="col-12 col-lg-4">
                             <i class="fa-solid fa-gear"></i>
                         </div>
-                        <div class="col-lg-8 d-none d-lg-block">destra</div>
+                        <div class="col-lg-8 d-none d-lg-block">Admin</div>
                     </div>
                 </div>
             </div>
         </aside>
+        <!-- /aside -->
         <main>
+            <!-- section-boolean -->
             <section class="ms-boolean py-4">
                 <div class="container-fluid">
                     <div class="row">
@@ -109,16 +125,19 @@
                     </div>
                 </div>
             </section>
+            <!-- /section-boolean -->
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
                         <div class="card mt-4">
+                            <!-- card-title -->
                             <div class="card-header d-flex justify-content-between">
-                                <h5>Prossimie classi</h5>
+                                <h5>Prossime classi</h5>
                                 <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                     <i class="fa-regular fa-plus ms-btn-offcanvas-plus py-2 px-2"></i>
                                 </a>
                             </div>
+                            <!-- /card-title -->
                             <div class="card-body">                              
                                 <table class="table ms-font-small text-center">
                                     <thead>
@@ -133,10 +152,9 @@
                                     <tbody>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 75
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 75</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">15-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">15 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-success">Done</span>
@@ -148,10 +166,9 @@
                                       </tr>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 76
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 76</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">16-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">16 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-success">Done</span>
@@ -163,10 +180,9 @@
                                       </tr>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 77
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 77</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">17-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">17 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-warning">Process</span>
@@ -178,10 +194,9 @@
                                       </tr>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 78
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 78</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">18-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">18 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-success">Done</span>
@@ -193,10 +208,9 @@
                                       </tr>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 79
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 79</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">19-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">19 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-danger">Failed</span>
@@ -208,10 +222,9 @@
                                       </tr>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 80
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 80</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">20-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">20 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-success">Done</span>
@@ -223,10 +236,9 @@
                                       </tr>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 81
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 81</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">21-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">21 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-danger">Failed</span>
@@ -238,10 +250,9 @@
                                       </tr>
                                       <tr>
                                         <th class="ms-th-large text-start">
-                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i></a>
-                                            Classe 82
+                                            <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 82</a>
                                         </th>
-                                        <td class="ms-th-small d-none d-md-table-cell">22-Febbraio-2021</td>
+                                        <td class="ms-th-small d-none d-md-table-cell">22 Feb 2021</td>
                                         <td class="ms-th-small d-sm-table-cell">20%</td>
                                         <td class="ms-th-small">
                                             <span class="badge text-bg-success">Done</span>
@@ -255,13 +266,14 @@
                                 </table>
                             </div>
                         </div>
+                        <!-- faq -->
                         <div class="card mt-4 mb-4">
                             <h5 class="card-header">F.A.Q.</h5>
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
                                         <div class="dropdown">
-                                            <button class="ms-faq-button ms-bg-color9" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="ms-faq-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               <div>Come aggiungere una nuova classe?</div>
                                               <div><i class="fa-solid fa-caret-down"></i></div>
                                             </button>
@@ -272,7 +284,7 @@
                                     </li>
                                     <li class="list-group-item">
                                         <div class="dropdown">
-                                            <button class="ms-faq-button ms-bg-color9" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="ms-faq-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               <div>Come posso accedere alle informazioni sul mio account?</div>
                                               <div><i class="fa-solid fa-caret-down"></i></div>
                                             </button>
@@ -283,7 +295,7 @@
                                     </li>
                                     <li class="list-group-item">
                                         <div class="dropdown">
-                                            <button class="ms-faq-button ms-bg-color9" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="ms-faq-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               <div>Posso accedere a questa dashboard da mobile?</div>
                                               <div><i class="fa-solid fa-caret-down"></i></div>
                                             </button>
@@ -294,35 +306,36 @@
                                     </li>
                                 </ul>
                             </div>
+                            <!-- /faq -->
                         </div>
-                        <!-- Fine Faq -->
                     </div>
                     <div class="col-lg-4">
-                        <!-- 1a card -->
+                        <!-- card-todo -->
                         <div class="card mt-4">
                             <h5 class="card-header">Todo</h5>
-                            <div class="card-body">
+                            <div class="card-body todo">
                                 <div class="input-group mb-3">
-                                    <div class="input-group-text ms-bg-color9">
+                                    <div class="input-group-text">
                                       <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
                                     </div>
                                     <input type="text" class="form-control" aria-label="Text input with checkbox" value="Kick off nuove classi">
                                 </div>
                                 <div class="input-group mb-3">
-                                    <div class="input-group-text ms-bg-color9">
+                                    <div class="input-group-text">
                                       <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
                                     </div>
-                                    <input type="text" class="form-control" aria-label="Text input with checkbox" value="Lezione su Boostrapt5 in classe 75">
+                                    <input type="text" class="form-control" aria-label="Text input with checkbox" value="Lezione su Boostrapt 5 in classe #75">
                                 </div>
                                 <div class="input-group mb-3">
-                                    <div class="input-group-text ms-bg-color9">
+                                    <div class="input-group-text">
                                       <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
                                     </div>
                                     <input type="text" class="form-control" aria-label="Text input with checkbox" value="Controllare username ghithub studenti">
                                 </div>
                             </div>
+                            <!-- /card-todo -->
                         </div>
-                        <!-- 2a card -->
+                        <!-- card-stats -->
                         <div class="card mt-4">
                             <img src="img\stats.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -338,10 +351,31 @@
                               <a href="#" class="card-link">Visualizza report approfondito</a>
                             </div>
                         </div>
+                        <!-- /card-stats -->
                     </div>
                 </div>
             </div>
         </main>
     </div>
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiungi Classe</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="name" placeholder="Nome">
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Data Inizio</label>
+                <input type="date" class="form-control" id="date" placeholder="">          
+            </div>
+            <button class="btn btn-primary">Salva</button>
+            <button class="btn btn-warning">Reset</button>
+        </div>
+    </div>
+    <!-- /offcanvas -->
 </body>
 </html>
