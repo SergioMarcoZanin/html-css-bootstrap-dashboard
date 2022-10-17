@@ -4,6 +4,7 @@ aside{
     background-color: #051e34;
     flex-shrink: 0;
     color: white;
+    background-image: url(../img/sidebar-bg.png);
 }
 .ms-container-aside{
     height: 100%;

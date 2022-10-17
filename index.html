@@ -73,13 +73,13 @@
                         </div>
                         <div class="col-lg-8 d-none d-lg-block">Home</div>
                     </div>
-                    <div class="row ciao">
+                    <div class="row">
                         <div class="col-12 col-lg-4">
                             <i class="fa-sharp fa-solid fa-chart-simple"></i>
                         </div>
                         <div class="col-lg-8 d-none d-lg-block">Stats</div>
                     </div>
-                    <div class="row ciao">
+                    <div class="row">
                         <div class="col-12 col-lg-4">
                             <i class="fa-solid fa-signal"></i>
                         </div>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="container ms-aside-bottom">
-                    <div class="row ciao">
+                    <div class="row">
                         <div class="col-12 col-lg-4">
                             <i class="fa-solid fa-gear"></i>
                         </div>
@@ -133,13 +133,12 @@
                             <!-- card-title -->
                             <div class="card-header d-flex justify-content-between">
                                 <h5>Prossime classi</h5>
-                                <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                                    <i class="fa-regular fa-plus ms-btn-offcanvas-plus py-2 px-2"></i>
-                                </a>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">+</button>
                             </div>
                             <!-- /card-title -->
                             <div class="card-body">                              
                                 <table class="table ms-font-small text-center">
+                                    <!-- table-head -->
                                     <thead>
                                       <tr>
                                         <th class="ms-th-large text-start" scope="col">Nome</th>
@@ -149,7 +148,9 @@
                                         <th class="ms-th-small" scope="col">Azioni</th>
                                       </tr>
                                     </thead>
+                                    <!-- /table-head -->
                                     <tbody>
+                                        <!-- 1^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 75</a>
@@ -164,6 +165,8 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /1^line -->
+                                      <!-- 2^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 76</a>
@@ -178,6 +181,8 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /2^line -->
+                                      <!-- 3^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 77</a>
@@ -192,6 +197,8 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /3^line -->
+                                      <!-- 4^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 78</a>
@@ -206,6 +213,8 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /4^line -->
+                                      <!-- 5^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 79</a>
@@ -220,6 +229,8 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /5^line -->
+                                      <!-- 6^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 80</a>
@@ -234,6 +245,8 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /6^line -->
+                                      <!-- 7^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 81</a>
@@ -248,6 +261,8 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /7^line -->
+                                      <!-- 8^line -->
                                       <tr>
                                         <th class="ms-th-large text-start">
                                             <a href=""><i class="fa-solid fa-code ms-code-icon"></i>Classe 82</a>
@@ -262,6 +277,7 @@
                                             <button class="ms-table-button"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                       </tr>
+                                      <!-- /8^line -->
                                     </tbody>
                                 </table>
                             </div>
@@ -358,24 +374,16 @@
         </main>
     </div>
     <!-- offcanvas -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiungi Classe</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <h5 class="offcanvas-title" id="offcanvasLabel">Titolo</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <div class="mb-3">
-                <label for="name" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="name" placeholder="Nome">
-            </div>
-            <div class="mb-3">
-                <label for="date" class="form-label">Data Inizio</label>
-                <input type="date" class="form-control" id="date" placeholder="">          
-            </div>
-            <button class="btn btn-primary">Salva</button>
-            <button class="btn btn-warning">Reset</button>
+          Contenuto
         </div>
-    </div>
+      </div>
+      </div>
     <!-- /offcanvas -->
 </body>
 </html>
